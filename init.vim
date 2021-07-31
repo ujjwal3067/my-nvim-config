@@ -1,0 +1,47 @@
+
+"plugins ( uses plug as plugin manager )
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-sensible'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'fatih/vim-go'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
+Plug 'nvim-lua/completion-nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-fugitive'
+"Icons
+
+Plug 'akinsho/nvim-bufferline.lua'
+
+" COLOR SCHEMES
+Plug 'nanotech/jellybeans.vim'
+Plug 'arzg/vim-colors-xcode'
+Plug 'mhartington/oceanic-next'
+Plug 'plan9-for-vimspace/acme-colors'
+Plug 'andreypopp/vim-colors-plain'
+Plug 'cocopon/iceberg.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'arcticicestudio/nord-vim'
+Plug 'ayu-theme/ayu-vim' 
+
+call plug#end()
+
+"General settings 
+
+source $HOME/.config/nvim/devicons.vim
+source $HOME/.config/nvim/general.vim
+source $HOME/.config/nvim/bufferline.vim
+" source $HOME/.config/nvim/telescope.nvim.vim
+source $HOME/.config/nvim/lsp.vim
+
