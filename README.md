@@ -1,4 +1,5 @@
 ### NVIM config 
+This config is in work in progress. 
 #### Plugins installed
 - vim-devicons
 - vim-airline
