@@ -1,5 +1,5 @@
 ### NVIM config 
-This config is in work in progress. 
+(This config is in work in progress.) 
 #### Plugins installed
 - vim-devicons
 - vim-airline
@@ -20,7 +20,7 @@ This config is in work in progress.
     - completion-nvim
 
 
-- telescope 
+- Telescope 
      - plenary
      - popup
 
