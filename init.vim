@@ -11,15 +11,22 @@ Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
+"lsp
 Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
-Plug 'nvim-lua/completion-nvim'
+
 Plug 'lukas-reineke/indent-blankline.nvim'
+
+"telescope
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
+"file explore
 Plug 'preservim/nerdtree'
+
+"git
 Plug 'tpope/vim-fugitive'
 "Icons
 
@@ -46,4 +53,6 @@ source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/bufferline.vim
 " source $HOME/.config/nvim/telescope.nvim.vim
 source $HOME/.config/nvim/lsp.vim
+
+
 
