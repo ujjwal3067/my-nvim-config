@@ -9,7 +9,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
 Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
@@ -40,6 +41,7 @@ call plug#end()
 "General settings 
 
 source $HOME/.config/nvim/devicons.vim
+source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/bufferline.vim
 " source $HOME/.config/nvim/telescope.nvim.vim
