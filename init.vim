@@ -15,6 +15,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
+Plug 'glepnir/lspsaga.nvim'
 
 Plug 'lukas-reineke/indent-blankline.nvim'
 
@@ -28,6 +29,10 @@ Plug 'preservim/nerdtree'
 
 "git
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
+
 "Icons
 
 Plug 'akinsho/nvim-bufferline.lua'

@@ -5,10 +5,10 @@ let g:mapleader = " "
 nmap<leader>w :w!<cr>
 nmap<leader>q :q<cr>
 
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+" nnoremap <C-h> <C-w>h
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-l> <C-w>l
 
 "identation
 
@@ -70,7 +70,9 @@ set history=1000
 set nomodeline " Ignore file’s mode lines; use vimrc configurations instead.
 set noswapfile " Disable swap files.
 
+" use macos clipboard to copy and paste
 
+set clipboard+=unnamedplus
 
 
 " colorSchemes
