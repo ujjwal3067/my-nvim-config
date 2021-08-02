@@ -33,6 +33,9 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
+"Org mode ::neorg
+Plug 'vhyrro/neorg' 
+
 "Icons
 
 Plug 'akinsho/nvim-bufferline.lua'
@@ -58,6 +61,7 @@ source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/bufferline.vim
 " source $HOME/.config/nvim/telescope.nvim.vim
 source $HOME/.config/nvim/lsp.vim
+source $HOME/.config/nvim/generalmapping.vim
 
 
 

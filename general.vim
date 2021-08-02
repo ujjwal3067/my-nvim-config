@@ -74,6 +74,11 @@ set noswapfile " Disable swap files.
 
 set clipboard+=unnamedplus
 
+"Highlighting yanking
+augroup highlight_yank
+    autocmd!
+    au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
+augroup END
 
 " colorSchemes
 
