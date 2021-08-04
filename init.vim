@@ -59,7 +59,7 @@ source $HOME/.config/nvim/devicons.vim
 source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/bufferline.vim
-" source $HOME/.config/nvim/telescope.nvim.vim
+source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/generalmapping.vim
 
