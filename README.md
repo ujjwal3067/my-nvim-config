@@ -26,6 +26,9 @@
 
 
 # Screenshots
+### Buffer lister
 - ![buffer lister](images/2.png)
+### File Finder
 - ![file finder](images/1.png)
+### NERDtree 
 - ![NERDtree](images/3.png)
