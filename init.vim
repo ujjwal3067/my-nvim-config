@@ -8,7 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
 "lsp
@@ -57,8 +57,8 @@ call plug#end()
 
 source $HOME/.config/nvim/devicons.vim
 source $HOME/.config/nvim/treesitter.vim
-source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/bufferline.vim
+source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/generalmapping.vim

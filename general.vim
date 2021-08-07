@@ -99,7 +99,7 @@ set termguicolors     " enable true colors support
 " colorscheme default 
 
 
-" set background=dark
+" set background=light
 " colorscheme solarized 
 
 " let ayucolor="light"  " for light version of theme
