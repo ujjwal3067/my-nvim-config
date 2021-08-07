@@ -108,9 +108,6 @@ let ayucolor="dark"   " for dark version of theme
 colorscheme ayu
 
 
-
-
-
 "NERDtree config
 nnoremap <leader>n :NERDTreeFocus<CR>
 " nnoremap <C-n> :NERDTree<CR>
