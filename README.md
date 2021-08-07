@@ -26,6 +26,6 @@
 
 
 # Screenshots
-![buffer lister](./image/2.png)
-![file finder](./image/1.png)
-![NERDtree](./image/3.png)
+![buffer lister](image/2.png)
+![file finder](image/1.png)
+![NERDtree](image/3.png)
