@@ -16,7 +16,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 Plug 'glepnir/lspsaga.nvim'
-Plug 'ray-x/go.nvim'
+"Plug 'ray-x/go.nvim' " good plugin (use it when you can figure out why autocomplete not working)
 
 "dp mode (debugger mode)
 
@@ -76,6 +76,6 @@ source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
-" source $HOME/.config/nvim/lsp.vim
-source $HOME/.config/nvim/go.vim
+source $HOME/.config/nvim/lsp.vim
+" source $HOME/.config/nvim/go.vim
 

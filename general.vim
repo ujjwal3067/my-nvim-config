@@ -2,8 +2,8 @@
 
 "Remaping leader
 let g:mapleader = " "
-" nmap<leader>w :w!<cr>
-" nmap<leader>q :q<cr>
+nmap<leader>w :w!<cr>
+nmap<leader>q :q<cr>
 
 " nnoremap <C-h> <C-w>h
 " nnoremap <C-j> <C-w>j
