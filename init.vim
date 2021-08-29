@@ -12,10 +12,17 @@ Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
 "lsp
-Plug 'fatih/vim-go'
+" Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 Plug 'glepnir/lspsaga.nvim'
+Plug 'ray-x/go.nvim'
+
+"dp mode (debugger mode)
+
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'theHamsta/nvim-dap-virtual-text'
 
 Plug 'lukas-reineke/indent-blankline.nvim'
 
@@ -37,8 +44,12 @@ Plug 'junegunn/gv.vim'
 Plug 'vhyrro/neorg' 
 
 "Icons
-
 Plug 'akinsho/nvim-bufferline.lua'
+
+" python indentations
+" Plug 'Vimjas/vim-python-pep8-indent'
+
+
 
 " COLOR SCHEMES
 Plug 'nanotech/jellybeans.vim'
@@ -47,9 +58,13 @@ Plug 'mhartington/oceanic-next'
 Plug 'plan9-for-vimspace/acme-colors'
 Plug 'andreypopp/vim-colors-plain'
 Plug 'cocopon/iceberg.vim'
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
+Plug  'lifepillar/vim-solarized8'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ayu-theme/ayu-vim' 
+Plug 'sonph/onehalf'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+
 
 call plug#end()
 
@@ -60,8 +75,7 @@ source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
-source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/generalmapping.vim
-
-
+" source $HOME/.config/nvim/lsp.vim
+source $HOME/.config/nvim/go.vim
 

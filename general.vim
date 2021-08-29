@@ -2,8 +2,8 @@
 
 "Remaping leader
 let g:mapleader = " "
-nmap<leader>w :w!<cr>
-nmap<leader>q :q<cr>
+" nmap<leader>w :w!<cr>
+" nmap<leader>q :q<cr>
 
 " nnoremap <C-h> <C-w>h
 " nnoremap <C-j> <C-w>j
@@ -15,13 +15,15 @@ nmap<leader>q :q<cr>
 inoremap jk <Esc>
 set number
 set relativenumber
-" set cursorline
+set cursorline
 
 " indentation
 set expandtab
-set smarttab
-set shiftwidth=4
+" set autoindent
 set tabstop=4
+set softtabstop=4
+" set smarttab
+set shiftwidth=4
 set ai
 set si
 
@@ -36,7 +38,6 @@ set mouse=a
 set hlsearch  " show search result as you type"
 set showmatch 					" show matching brackets
 set ignorecase
-set autoindent
 set incsearch
 set smartcase
 
@@ -88,25 +89,26 @@ augroup END
 
 let &t_Co=256
 set termguicolors     " enable true colors support
+" set background=light
+" colorscheme solarized8_high
 
-" set background=dark
+" let ayucolor="dark"   " for dark version of theme
+"  colorscheme ayu
+
 " colorscheme xcodedarkhc
 
+set background=dark
+" colorscheme iceberg 
+"
+"
+" let g:material_terminal_italics = 1
+" let g:material_theme_style = 'ocean'
+" " let g:material_theme_style = 'darker'
+" colorscheme material
+" let g:lightline = { 'colorscheme': 'material_vim' }
+" let g:airline_theme = 'material'
 
-" colorscheme nord
-
-" set background=dark
-" colorscheme default 
-
-
-" set background=light
-" colorscheme solarized 
-
-" let ayucolor="light"  " for light version of theme
-" let ayucolor="mirage" " for mirage version of theme
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
-
+colorscheme gruvbox
 
 "NERDtree config
 nnoremap <leader>n :NERDTreeFocus<CR>
