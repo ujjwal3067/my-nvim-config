@@ -89,26 +89,34 @@ augroup END
 
 let &t_Co=256
 set termguicolors     " enable true colors support
-" set background=light
-" colorscheme solarized8_high
+set background=light
+colorscheme solarized8_high
 
 " let ayucolor="dark"   " for dark version of theme
 "  colorscheme ayu
 
 " colorscheme xcodedarkhc
 
-set background=dark
+" set background=dark
 " colorscheme iceberg 
 "
 "
 " let g:material_terminal_italics = 1
 " let g:material_theme_style = 'ocean'
 " " let g:material_theme_style = 'darker'
+
 " colorscheme material
 " let g:lightline = { 'colorscheme': 'material_vim' }
 " let g:airline_theme = 'material'
 
-colorscheme gruvbox
+" colorscheme gruvbox
+" colorscheme blaquemagick
+" colorscheme znake
+
+" colorscheme gotham256
+" let g:gotham_airline_emphasised_insert = 0
+" let g:airline_theme = 'gotham256'
+
 
 "NERDtree config
 nnoremap <leader>n :NERDTreeFocus<CR>

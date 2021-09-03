@@ -64,7 +64,9 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'ayu-theme/ayu-vim' 
 Plug 'sonph/onehalf'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-
+Plug 'xero/blaquemagick.vim'
+Plug 'znake/znake-vim'
+Plug 'whatyouhide/vim-gotham'
 
 call plug#end()
 
