@@ -67,6 +67,7 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'xero/blaquemagick.vim'
 Plug 'znake/znake-vim'
 Plug 'whatyouhide/vim-gotham'
+Plug 'mangeshrex/uwu.vim' 
 
 call plug#end()
 

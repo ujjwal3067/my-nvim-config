@@ -81,41 +81,12 @@ augroup highlight_yank
     au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
 augroup END
 
-" colorSchemes
-
-" if (has("termguicolors"))
-"  set termguicolors
-" endif
 
 let &t_Co=256
 set termguicolors     " enable true colors support
-set background=light
-colorscheme solarized8_high
-
-" let ayucolor="dark"   " for dark version of theme
-"  colorscheme ayu
-
-" colorscheme xcodedarkhc
-
-" set background=dark
-" colorscheme iceberg 
-"
-"
-" let g:material_terminal_italics = 1
-" let g:material_theme_style = 'ocean'
-" " let g:material_theme_style = 'darker'
-
-" colorscheme material
-" let g:lightline = { 'colorscheme': 'material_vim' }
-" let g:airline_theme = 'material'
-
-" colorscheme gruvbox
-" colorscheme blaquemagick
-" colorscheme znake
-
-" colorscheme gotham256
-" let g:gotham_airline_emphasised_insert = 0
-" let g:airline_theme = 'gotham256'
+set background=dark
+"colorscheme iceberg 
+colorscheme uwu
 
 
 "NERDtree config
