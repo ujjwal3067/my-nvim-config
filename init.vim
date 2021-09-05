@@ -68,6 +68,7 @@ Plug 'xero/blaquemagick.vim'
 Plug 'znake/znake-vim'
 Plug 'whatyouhide/vim-gotham'
 Plug 'mangeshrex/uwu.vim' 
+Plug 'lifepillar/vim-gruvbox8'
 
 call plug#end()
 
