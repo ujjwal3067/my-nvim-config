@@ -41,7 +41,9 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
 "Org mode ::neorg
-Plug 'vhyrro/neorg' 
+Plug 'vhyrro/neorg'             "Org mode but in neovim 
+Plug 'jbyuki/nabla.nvim'        "Pretty latex Math  equation rendered
+
 
 "Icons
 Plug 'akinsho/nvim-bufferline.lua'
@@ -69,6 +71,9 @@ Plug 'znake/znake-vim'
 Plug 'whatyouhide/vim-gotham'
 Plug 'mangeshrex/uwu.vim' 
 Plug 'lifepillar/vim-gruvbox8'
+Plug 'morhetz/gruvbox'
+Plug 'sainnhe/everforest'
+Plug 'jpo/vim-railscasts-theme'
 
 call plug#end()
 
@@ -81,5 +86,6 @@ source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
 source $HOME/.config/nvim/lsp.vim
+source $HOME/.config/nvim/colorscheme.vim
 " source $HOME/.config/nvim/go.vim
 

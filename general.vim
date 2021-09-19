@@ -81,27 +81,12 @@ augroup highlight_yank
     au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
 augroup END
 
-let &t_Co=256
-set termguicolors     " enable true colors support
-set background=dark
-"colorscheme iceberg 
-"colorscheme uwu
-"GRUVBOX colorscheme options
-colorscheme gruvbox8_hard
-let g:gruvbox_bold = 1
-let g:gruvbox_italics = 1
-let g:gruvbox_italicize_strings = 1
-
-
 
 
 "NERDtree config
 nnoremap <leader>n :NERDTreeFocus<CR>
-" nnoremap <C-n> :NERDTree<CR>
 nnoremap <leader>t :NERDTree<CR>
 nnoremap <leader>,, :NERDTreeToggle<CR>
-" nnoremap <C-t> :NERDTreeToggle<CR>
-" nnoremap <C-f> :NERDTreeFind<CR>
 
 " this prevents the trailing white space being flagged as errors in go files  
 let g:go_highlight_trailing_whitespace_error=0

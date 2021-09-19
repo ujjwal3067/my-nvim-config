@@ -10,4 +10,5 @@ lua <<EOF
     textobjects = { enable = true },
     indent =  {enable = true}
   }
+
 EOF
