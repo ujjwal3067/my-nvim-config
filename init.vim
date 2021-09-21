@@ -48,6 +48,10 @@ Plug 'jbyuki/nabla.nvim'        "Pretty latex Math  equation rendered
 "Icons
 Plug 'akinsho/nvim-bufferline.lua'
 
+"smoothing scrolling 
+Plug 'karb94/neoscroll.nvim'
+
+
 " python indentations
 " Plug 'Vimjas/vim-python-pep8-indent'
 
@@ -87,5 +91,6 @@ source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
 source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/colorscheme.vim
+source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 
