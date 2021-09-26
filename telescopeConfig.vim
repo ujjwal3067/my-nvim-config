@@ -17,7 +17,7 @@ require('telescope').setup{
     initial_mode = "insert",
     selection_strategy = "reset",
     sorting_strategy = "descending",
-    layout_strategy = "vertical",
+    layout_strategy = "horizontal",
     layout_config = {
       horizontal = {
         mirror = false,
@@ -48,7 +48,7 @@ require('telescope').setup{
     -- Your special builtin config goes in here
         buffers = {
           sort_lastused = true,
-          theme = "dropdown",
+          theme = "ivy",
           previewer = false,
           mappings = {
             i = {
@@ -62,7 +62,7 @@ require('telescope').setup{
           }
         },
         find_files = {
-          theme = "dropdown"
+          theme = "ivy"
         }
   },
 
