@@ -90,7 +90,6 @@ source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
 source $HOME/.config/nvim/lsp.vim
-source $HOME/.config/nvim/colorscheme.vim
 source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
-
+source $HOME/.config/nvim/colorscheme.vim
