@@ -54,14 +54,15 @@ let g:github_variable_style = "italic"
 
 colorscheme github_dark_default
 
-"colorscheme nord
 
-"colorscheme iceberg
-" let g:material_theme_style='ocean'
-" colorscheme material
+
 "highligh scheme for errors
 "hi LspDiagnosticsVirtualTextError guifg=red gui=bold,italic,underline
 hi LspDiagnosticsVirtualTextError guifg=#9e0303 gui=bold,italic,underline
 hi LspDiagnosticsVirtualTextWarning guifg=orange gui=italic,underline
 hi LspDiagnosticsVirtualTextInformation guifg=yellow gui=italic,underline
 hi LspDiagnosticsVirtualTextHint guifg=yellow gui=italic,underline
+
+"highlight search colorscheme
+
+
