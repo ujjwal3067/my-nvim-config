@@ -79,6 +79,8 @@ Plug 'mangeshrex/uwu.vim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/everforest'
 Plug 'jpo/vim-railscasts-theme'
+Plug 'projekt0n/github-nvim-theme'
+
 
 call plug#end()
 

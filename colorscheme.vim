@@ -38,10 +38,21 @@ set background=dark
 
 "gruvbox material
 
-let g:gruvbox_material_background = 'hard'
-let g:gruvbox_material_enable_italic = 1
-let g:gruvbox_material_better_performance = 1
-colorscheme gruvbox-material
+" let g:gruvbox_material_background = 'hard'
+" let g:gruvbox_material_enable_italic = 1
+" let g:gruvbox_material_better_performance = 1
+" colorscheme gruvbox-material
+
+
+"github colorscheme
+
+" VimScript
+let g:github_comment_style = "italic"
+let g:github_keyword_style = "bold"
+let g:github_function_style = "italic"
+let g:github_variable_style = "italic"
+
+colorscheme github_dark_default
 
 "colorscheme nord
 
