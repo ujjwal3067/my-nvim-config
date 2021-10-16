@@ -36,12 +36,18 @@ set background=dark
 " colorscheme gruvbox
 
 
+"gruvbox material
+
+let g:gruvbox_material_background = 'hard'
+let g:gruvbox_material_enable_italic = 1
+let g:gruvbox_material_better_performance = 1
+colorscheme gruvbox-material
 
 "colorscheme nord
 
 "colorscheme iceberg
-let g:material_theme_style='ocean'
-colorscheme material
+" let g:material_theme_style='ocean'
+" colorscheme material
 "highligh scheme for errors
 "hi LspDiagnosticsVirtualTextError guifg=red gui=bold,italic,underline
 hi LspDiagnosticsVirtualTextError guifg=#9e0303 gui=bold,italic,underline
