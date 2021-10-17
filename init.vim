@@ -96,3 +96,4 @@ source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/colorscheme.vim
+source $HOME/.config/nvim/rust.vim
