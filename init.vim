@@ -18,6 +18,15 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'glepnir/lspsaga.nvim'
 "Plug 'ray-x/go.nvim' " good plugin (use it when you can figure out why autocomplete not working)
 
+"rust
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'simrat39/rust-tools.nvim'
+Plug 'hrsh7th/vim-vsnip'
+
 "dp mode (debugger mode)
 
 Plug 'mfussenegger/nvim-dap'
