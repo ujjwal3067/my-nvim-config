@@ -14,7 +14,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 "lsp
 " Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/completion-nvim'
 Plug 'glepnir/lspsaga.nvim'
 "Plug 'ray-x/go.nvim' " good plugin (use it when you can figure out why autocomplete not working)
 
@@ -83,9 +83,8 @@ Plug 'xero/blaquemagick.vim'
 Plug 'znake/znake-vim'
 Plug 'whatyouhide/vim-gotham'
 Plug 'mangeshrex/uwu.vim' 
-" Plug 'lifepillar/vim-gruvbox8'
-" Plug 'morhetz/gruvbox'
-Plug 'sainnhe/gruvbox-material'
+"Plug 'lifepillar/vim-gruvbox8'
+Plug 'morhetz/gruvbox'
 Plug 'sainnhe/everforest'
 Plug 'jpo/vim-railscasts-theme'
 Plug 'projekt0n/github-nvim-theme'

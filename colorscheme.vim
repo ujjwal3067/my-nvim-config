@@ -23,17 +23,17 @@ set background=dark
 
 
 "###########GRUVBOX colorcsheme
-" let g:gruvbox_italic=1
+let g:gruvbox_italic=1
 
-" let g:gruvbox_bold=0
-" let g:gruvbox_underline=1
-" let g:gruvbox_undercurl=1
-" let g:gruvbox_italicize_comments=1
-" let g:gruvbox_italicize_strings=1
-" let g:gruvbox_invert_selection=0
-" let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_bold=0
+let g:gruvbox_underline=1
+let g:gruvbox_undercurl=1
+let g:gruvbox_italicize_comments=1
+let g:gruvbox_italicize_strings=1
+let g:gruvbox_invert_selection=0
+let g:gruvbox_contrast_dark='hard'
 
-" colorscheme gruvbox
+colorscheme gruvbox
 
 
 "gruvbox material
@@ -47,14 +47,14 @@ set background=dark
 "github colorscheme
 
 " VimScript
-let g:github_comment_style = "italic"
-let g:github_keyword_style = "bold"
-let g:github_function_style = "italic"
-let g:github_variable_style = "italic"
+" let g:github_comment_style = "italic"
+" let g:github_keyword_style = "italic"
+" let g:github_function_style = "italic"
+" let g:github_variable_style = "italic"
 
-colorscheme github_dark_default
+" colorscheme github_dark_default
 
-
+"colorscheme znake
 
 "highligh scheme for errors
 "hi LspDiagnosticsVirtualTextError guifg=red gui=bold,italic,underline
