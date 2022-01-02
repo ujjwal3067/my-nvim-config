@@ -17,23 +17,23 @@ endif
 
 set background=dark
 
-"colorscheme iceberg 
+colorscheme iceberg 
 "colorscheme nord
 
 
 
 "###########GRUVBOX colorcsheme
-let g:gruvbox_italic=1
+" let g:gruvbox_italic=1
 
-let g:gruvbox_bold=0
-let g:gruvbox_underline=1
-let g:gruvbox_undercurl=1
-let g:gruvbox_italicize_comments=1
-let g:gruvbox_italicize_strings=1
-let g:gruvbox_invert_selection=0
-let g:gruvbox_contrast_dark='hard'
+" let g:gruvbox_bold=0
+" let g:gruvbox_underline=1
+" let g:gruvbox_undercurl=1
+" let g:gruvbox_italicize_comments=1
+" let g:gruvbox_italicize_strings=1
+" let g:gruvbox_invert_selection=0
+" let g:gruvbox_contrast_dark='hard'
 
-colorscheme gruvbox
+" colorscheme gruvbox
 
 
 "gruvbox material
@@ -44,6 +44,8 @@ colorscheme gruvbox
 " colorscheme gruvbox-material
 
 
+"ELLy colorscheme
+"colorscheme elly
 "github colorscheme
 
 " VimScript
@@ -52,7 +54,7 @@ colorscheme gruvbox
 " let g:github_function_style = "italic"
 " let g:github_variable_style = "italic"
 
-" colorscheme github_dark_default
+"colorscheme github_dark_default
 
 "colorscheme znake
 
