@@ -88,4 +88,3 @@ cmp.setup({
   },
 })
 EOF
-
