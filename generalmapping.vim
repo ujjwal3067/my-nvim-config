@@ -6,4 +6,6 @@ nnoremap Y y$
 nnoremap <F5> :lua require("nabla").action()<CR>
 
 " commenting mapping
-nmap<leader>gc <leader>/
+
+
+"nmap<leader>gc <leader>/
