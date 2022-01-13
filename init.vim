@@ -64,6 +64,11 @@ Plug 'karb94/neoscroll.nvim'
 " python indentations
 " Plug 'Vimjas/vim-python-pep8-indent'
 
+"which key
+Plug 'folke/which-key.nvim'
+
+"Pluging for calling lazygit within nvim  
+Plug 'kdheepak/lazygit.nvim'
 
 
 " COLOR SCHEMES
@@ -107,3 +112,5 @@ source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/colorscheme.vim
 "source $HOME/.config/nvim/rust.vim
+source $HOME/.config/nvim/which-key.vim
+source $HOME/.config/nvim/lazygit.vim
