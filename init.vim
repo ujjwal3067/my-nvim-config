@@ -70,6 +70,9 @@ Plug 'folke/which-key.nvim'
 "Pluging for calling lazygit within nvim  
 Plug 'kdheepak/lazygit.nvim'
 
+"Neovim startup screen
+Plug 'goolord/alpha-nvim'
+
 
 " COLOR SCHEMES
 Plug 'nanotech/jellybeans.vim'
@@ -114,3 +117,4 @@ source $HOME/.config/nvim/colorscheme.vim
 "source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
+source $HOME/.config/nvim/startupScreen.vim
