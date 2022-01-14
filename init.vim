@@ -73,6 +73,8 @@ Plug 'kdheepak/lazygit.nvim'
 "Neovim startup screen
 Plug 'goolord/alpha-nvim'
 
+"neovim presentation mode
+"Plug 'Chaitanyabsprip/present.nvim'
 
 " COLOR SCHEMES
 Plug 'nanotech/jellybeans.vim'
@@ -118,3 +120,4 @@ source $HOME/.config/nvim/colorscheme.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
+" source $HOME/.config/nvim/presentation.vim # NOTE : There is a BUG here
