@@ -42,7 +42,7 @@ lua << EOF
 require('kanagawa').setup({
     undercurl = true,           -- enable undercurls
     commentStyle = "italic",
-    functionStyle = "NONE",
+    functionStyle = "bold",
     keywordStyle = "italic",
     statementStyle = "bold",
     typeStyle = "NONE",
