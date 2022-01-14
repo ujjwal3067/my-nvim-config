@@ -100,6 +100,9 @@ Plug 'jpo/vim-railscasts-theme'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'ulwlu/elly.vim'
 
+"mix of gruvbox and tokyonight
+Plug 'rebelot/kanagawa.nvim'
+
 
 
 call plug#end()
