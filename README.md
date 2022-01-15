@@ -7,3 +7,4 @@
 
 ## example
 ![STARTUP](images/neovimconfig.png)
+- Terminal : ![kitty](https://sw.kovidgoyal.net/kitty/)
