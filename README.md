@@ -4,3 +4,6 @@
 ## plugins to support
 - telescope plugin : telescope-file-browswe.vim 
 
+
+## example
+![STARTUP](images/neovimconfig.png)
