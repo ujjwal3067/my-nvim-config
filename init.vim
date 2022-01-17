@@ -3,7 +3,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
@@ -76,6 +76,10 @@ Plug 'goolord/alpha-nvim'
 "neovim presentation mode
 "Plug 'Chaitanyabsprip/present.nvim'
 
+" lualine
+Plug 'nvim-lualine/lualine.nvim'
+
+
 " COLOR SCHEMES
 Plug 'nanotech/jellybeans.vim'
 Plug 'arzg/vim-colors-xcode'
@@ -110,7 +114,6 @@ call plug#end()
 "General settings 
 
 source $HOME/.config/nvim/devicons.vim
-source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
@@ -119,8 +122,9 @@ source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/colorscheme.vim
-"source $HOME/.config/nvim/rust.vim
+" source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
-" source $HOME/.config/nvim/presentation.vim # NOTE : There is a BUG here
+source $HOME/.config/nvim/lualine.vim
+source $HOME/.config/nvim/treesitter.vim
