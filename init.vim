@@ -12,7 +12,6 @@ Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
 "lsp
-" Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
 "Plug 'nvim-lua/completion-nvim'  " nvim-cmp is better 
 Plug 'glepnir/lspsaga.nvim'
