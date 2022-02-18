@@ -50,7 +50,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
 "Org mode ::neorg
-Plug 'vhyrro/neorg'             "Org mode but in neovim 
+" Plug 'vhyrro/neorg'             "Org mode but in neovim 
 Plug 'jbyuki/nabla.nvim'        "Pretty latex Math  equation rendered
 
 
@@ -79,6 +79,13 @@ Plug 'goolord/alpha-nvim'
 " lualine
 Plug 'nvim-lualine/lualine.nvim'
 
+" TODO comments
+Plug 'nvim-lua/plenary.nvim'
+"Plug 'folke/todo-comments.nvim'
+
+
+" floating terminal
+Plug 'numToStr/FTerm.nvim'
 
 " COLOR SCHEMES
 Plug 'nanotech/jellybeans.vim'
@@ -113,18 +120,33 @@ call plug#end()
 
 "General settings 
 
+source $HOME/.config/nvim/todocomments.vim
 source $HOME/.config/nvim/devicons.vim
 source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
-source $HOME/.config/nvim/lsp.vim
 source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/colorscheme.vim
-" source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
 source $HOME/.config/nvim/lualine.vim
 source $HOME/.config/nvim/treesitter.vim
+source $HOME/.config/nvim/rust.vim
+source $HOME/.config/nvim/lsp.vim
+
+
+
+
+lua <<EOF
+
+vim.g.some_global_variable = {
+    key1 = '--------WELCOME------------',
+    key2 = '    TO NEOVIM ROCKET'
+}
+
+print(vim.inspect(vim.g.some_global_variable)) -- { key1 = "value", key2 = 300 }
+
+EOF
