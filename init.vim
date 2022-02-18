@@ -14,14 +14,13 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 "lsp
 " Plug 'fatih/vim-go'
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/completion-nvim'  " nvim-cmp is better 
 Plug 'glepnir/lspsaga.nvim'
-"Plug 'ray-x/go.nvim' " good plugin (use it when you can figure out why autocomplete not working)
 
 "rust
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/nvim-cmp' " completion framwork 
+Plug 'hrsh7th/cmp-nvim-lsp' " lsp completion source for nvim-cmp
+Plug 'hrsh7th/cmp-vsnip' " snippet completion source for nvim
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'simrat39/rust-tools.nvim'
@@ -137,16 +136,3 @@ source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/lsp.vim
 
-
-
-
-lua <<EOF
-
-vim.g.some_global_variable = {
-    key1 = '--------WELCOME------------',
-    key2 = '    TO NEOVIM ROCKET'
-}
-
-print(vim.inspect(vim.g.some_global_variable)) -- { key1 = "value", key2 = 300 }
-
-EOF

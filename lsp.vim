@@ -13,7 +13,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
-  require('completion').on_attach()
+  --require('completion').on_attach()
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 
@@ -56,30 +56,6 @@ for _, lsp in ipairs(servers) do
     }
   }
 end
-
-
--- NOTE : not including gopls server inthe server list above because we are going to configure goalng server standalone
--- golang server setup ( gopls )
-nvim_lsp.gopls.setup{
-	cmd = {'gopls'},
-	-- for postfix snippets and analyzers
-	capabilities = capabilities,
-	    settings = {
-	      gopls = {
-		      experimentalPostfixCompletions = true,
-		      analyses = {
-		        unusedparams = true,
-		        shadow = true,
-		     },
-		     staticcheck = true,
-		    },
-	    },
-    -- attaching completion engine
-	--on_attach = on_attach,
-	--on_attach = require('completion').on_attach
-    on_attach = on_attach, 
-}
-
 
 --LspSAGA config ( UI for lsp config popup )
 
