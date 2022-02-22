@@ -1,6 +1,6 @@
 
 " Vim-go config
-" let g:go_def_mapping_enabled = 0                " disbles the vim-go go to defintion keybindings ( using lsp config instead for that ) 
+" let g:go_def_mapping_enabled = 0                " disables the vim-go go to defintion keybindings ( using lsp config instead for that ) 
 
 
 

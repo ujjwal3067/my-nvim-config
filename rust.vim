@@ -21,7 +21,7 @@ local nvim_lsp = require'lspconfig'
 
 local opts = {
     tools = { -- rust-tools options
-        autoSetHints = true,
+        autoSetHints = false,
         hover_with_actions = true,
         inlay_hints = {
             show_parameter_hints = false,

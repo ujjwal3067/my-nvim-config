@@ -113,6 +113,11 @@ Plug 'ulwlu/elly.vim'
 Plug 'rebelot/kanagawa.nvim'
 
 
+"LATEX Math plugins
+Plug 'gillescastel/latex-snippets'
+Plug 'sirver/ultisnips'
+Plug 'lervag/vimtex'
+Plug 'KeitaNakamura/tex-conceal.vim'
 
 call plug#end()
 
@@ -134,4 +139,6 @@ source $HOME/.config/nvim/lualine.vim
 source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/lsp.vim
+" source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex basics
+
 
