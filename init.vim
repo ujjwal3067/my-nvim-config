@@ -3,7 +3,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ryanoasis/vim-devicons'
-" Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
@@ -112,6 +112,8 @@ Plug 'ulwlu/elly.vim'
 "mix of gruvbox and tokyonight
 Plug 'rebelot/kanagawa.nvim'
 
+" catppuccin ( similar to kanagawa.vim above )
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 
 "LATEX Math plugins
 Plug 'gillescastel/latex-snippets'
