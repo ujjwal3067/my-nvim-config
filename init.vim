@@ -14,6 +14,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 "lsp
 Plug 'neovim/nvim-lspconfig'
 "Plug 'nvim-lua/completion-nvim'  " nvim-cmp is better 
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'glepnir/lspsaga.nvim'
 
 "rust
@@ -115,6 +116,9 @@ Plug 'rebelot/kanagawa.nvim'
 " catppuccin ( similar to kanagawa.vim above )
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 
+"base 16 colorscheme
+"Plug 'base16-fork/base16-nvim'
+
 "LATEX Math plugins
 Plug 'gillescastel/latex-snippets'
 Plug 'sirver/ultisnips'
@@ -133,7 +137,6 @@ source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
 source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
-source $HOME/.config/nvim/colorscheme.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
@@ -142,5 +145,7 @@ source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/lsp.vim
 " source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex basics
+source $HOME/.config/nvim/colorscheme.vim
+source $HOME/.config/nvim/C.vim
 
 
