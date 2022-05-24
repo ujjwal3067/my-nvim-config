@@ -129,23 +129,24 @@ call plug#end()
 
 "General settings 
 
-source $HOME/.config/nvim/todocomments.vim
+"source $HOME/.config/nvim/todocomments.vim
 source $HOME/.config/nvim/devicons.vim
 source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
-source $HOME/.config/nvim/smoothscrolling.vim
+"source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
-source $HOME/.config/nvim/lualine.vim
+"source $HOME/.config/nvim/lualine.vim
 source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/lsp.vim
 " source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex basics
 source $HOME/.config/nvim/colorscheme.vim
-source $HOME/.config/nvim/C.vim
+"source $HOME/.config/nvim/C.vim
+source $HOME/.config/nvim/Fterm.vim
 
 
