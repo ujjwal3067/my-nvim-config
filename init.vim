@@ -80,7 +80,7 @@ Plug 'nvim-lualine/lualine.nvim'
 
 " TODO comments
 Plug 'nvim-lua/plenary.nvim'
-"Plug 'folke/todo-comments.nvim'
+Plug 'folke/todo-comments.nvim'
 
 
 " floating terminal
@@ -113,40 +113,36 @@ Plug 'ulwlu/elly.vim'
 "mix of gruvbox and tokyonight
 Plug 'rebelot/kanagawa.nvim'
 
-" catppuccin ( similar to kanagawa.vim above )
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
-
 "base 16 colorscheme
 "Plug 'base16-fork/base16-nvim'
+Plug 'chriskempson/base16-vim'
 
 "LATEX Math plugins
 Plug 'gillescastel/latex-snippets'
 Plug 'sirver/ultisnips'
 Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
-
+Plug 'kyazdani42/blue-moon'
 call plug#end()
 
 "General settings 
 
-"source $HOME/.config/nvim/todocomments.vim
+source $HOME/.config/nvim/todocomments.vim
 source $HOME/.config/nvim/devicons.vim
 source $HOME/.config/nvim/bufferline.vim
 source $HOME/.config/nvim/general.vim
 source $HOME/.config/nvim/telescopeConfig.vim
 source $HOME/.config/nvim/generalmapping.vim
-"source $HOME/.config/nvim/smoothscrolling.vim
+source $HOME/.config/nvim/smoothscrolling.vim
 " source $HOME/.config/nvim/go.vim
 source $HOME/.config/nvim/which-key.vim
 source $HOME/.config/nvim/lazygit.vim
 source $HOME/.config/nvim/startupScreen.vim
-"source $HOME/.config/nvim/lualine.vim
+source $HOME/.config/nvim/lualine.vim
 source $HOME/.config/nvim/treesitter.vim
 source $HOME/.config/nvim/rust.vim
 source $HOME/.config/nvim/lsp.vim
-" source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex basics
-source $HOME/.config/nvim/colorscheme.vim
+" source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex's basics
 "source $HOME/.config/nvim/C.vim
 source $HOME/.config/nvim/Fterm.vim
-
-
+source $HOME/.config/nvim/colorscheme.vim
