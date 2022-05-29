@@ -78,3 +78,10 @@ set background=dark
 "highlight Pmenu ctermbg=gray guibg=gray " only use it for deafult colorscheme
 
 colorscheme base16-irblack  
+
+""highligh scheme for errors
+"hi LspDiagnosticsVirtualTextError guifg=red gui=bold,italic,underline
+"hi LspDiagnosticsVirtualTextError guifg=#9e0303 gui=bold,italic,underline
+"hi LspDiagnosticsVirtualTextWarning guifg=orange gui=italic,underline
+"hi LspDiagnosticsVirtualTextInformation guifg=yellow gui=italic,underline
+"hi LspDiagnosticsVirtualTextHint guifg=yellow gui=italic,underline

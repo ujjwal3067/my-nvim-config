@@ -123,7 +123,19 @@ Plug 'sirver/ultisnips'
 Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
 Plug 'kyazdani42/blue-moon'
+
+" Markdown notes taking setup
+Plug 'honza/vim-snippets'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'godlygeek/tabular'
+Plug 'elzr/vim-json'
+Plug 'plasticboy/vim-markdown'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
 call plug#end()
+
 
 "General settings 
 
@@ -145,4 +157,5 @@ source $HOME/.config/nvim/lsp.vim
 " source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex's basics
 "source $HOME/.config/nvim/C.vim
 source $HOME/.config/nvim/Fterm.vim
+source $HOME/.config/nvim/markdown.vim
 source $HOME/.config/nvim/colorscheme.vim
