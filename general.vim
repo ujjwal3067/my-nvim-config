@@ -15,7 +15,7 @@ nmap<leader>q :q<cr>
 inoremap jk <Esc>
 set number
 set relativenumber
-"set cursorline
+set cursorline
 
 " indentation
 set expandtab

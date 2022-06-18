@@ -132,7 +132,7 @@ Plug 'godlygeek/tabular'
 Plug 'elzr/vim-json'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 call plug#end()
 
@@ -157,5 +157,5 @@ source $HOME/.config/nvim/lsp.vim
 " source $HOME/.config/nvim/latex.vim "NOTE:  uncomment this when you learn latex's basics
 "source $HOME/.config/nvim/C.vim
 source $HOME/.config/nvim/Fterm.vim
-source $HOME/.config/nvim/markdown.vim
 source $HOME/.config/nvim/colorscheme.vim
+source $HOME/.config/nvim/markdown.vim

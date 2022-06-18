@@ -31,28 +31,28 @@ set background=dark
 
 "kanagawa ( mix of gruvbox and tokyonight )
 
-"  lua << EOF 
-"  -- Default options:
-"  require('kanagawa').setup({
-"      undercurl = true,           -- enable undercurls
-"      commentStyle = "italic",
-"      functionStyle = "bold",
-"      keywordStyle = "italic",
-"      statementStyle = "bold",
-"      typeStyle = "NONE",
-"      variablebuiltinStyle = "italic",
-"      specialReturn = true,       -- special highlight for the return keyword
-"      specialException = true,    -- special highlight for exception handling keywords 
-"      transparent = false,        -- do not set background color
-"      dimInactive = false,        -- dim inactive window `:h hl-NormalNC`
-"      colors = {},
-"      overrides = {},
-"  })
+ lua << EOF 
+ -- Default options:
+ require('kanagawa').setup({
+     undercurl = true,           -- enable undercurls
+     commentStyle = "italic",
+     functionStyle = "bold",
+     keywordStyle = "italic",
+     statementStyle = "bold",
+     typeStyle = "NONE",
+     variablebuiltinStyle = "italic",
+     specialReturn = true,       -- special highlight for the return keyword
+     specialException = true,    -- special highlight for exception handling keywords 
+     transparent = false,        -- do not set background color
+     dimInactive = false,        -- dim inactive window `:h hl-NormalNC`
+     colors = {},
+     overrides = {},
+ })
 
-"  -- setup must be called before loading
-"  local default_colors = require("kanagawa.colors").setup()
-"  vim.cmd("colorscheme kanagawa")
-" EOF 
+ -- setup must be called before loading
+ local default_colors = require("kanagawa.colors").setup()
+ vim.cmd("colorscheme kanagawa")
+EOF 
 
 
 
@@ -77,11 +77,5 @@ set background=dark
 
 "highlight Pmenu ctermbg=gray guibg=gray " only use it for deafult colorscheme
 
-colorscheme base16-irblack  
+"colorscheme base16-irblack  
 
-""highligh scheme for errors
-"hi LspDiagnosticsVirtualTextError guifg=red gui=bold,italic,underline
-"hi LspDiagnosticsVirtualTextError guifg=#9e0303 gui=bold,italic,underline
-"hi LspDiagnosticsVirtualTextWarning guifg=orange gui=italic,underline
-"hi LspDiagnosticsVirtualTextInformation guifg=yellow gui=italic,underline
-"hi LspDiagnosticsVirtualTextHint guifg=yellow gui=italic,underline
