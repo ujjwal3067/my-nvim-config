@@ -15,8 +15,6 @@ set background=dark
 "colorscheme iceberg 
 "colorscheme nord
 
-
-
 "###########GRUVBOX colorcsheme
 " let g:gruvbox_italic=1
 
@@ -77,5 +75,5 @@ EOF
 
 "highlight Pmenu ctermbg=gray guibg=gray " only use it for deafult colorscheme
 
-"colorscheme base16-irblack  
+"olorscheme base16-irblack  
 
