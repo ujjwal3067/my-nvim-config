@@ -4,8 +4,9 @@ require("user.set")         -- this file contains general default setting for ne
 require("user.keymap")      -- this file contains custom keymaps
 require("user.color")       -- everything related to colorscheme  
 require("user.lualine")     -- lualine config ( status line for vim  ) 
-require("user.treesitter")   -- treesitter config
+require("user.treesitter")  -- treesitter config
 require("user.telescope")   -- telescope config
+require("user.neoclip")     -- clipboard manager for neovim ( history of register as well )   
 
 
 -- NOTE : remove it when done with telescope configuration 

@@ -45,13 +45,14 @@ return packer.startup(function(use)
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7"} -- file finder, grepper etc. 
 
     use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba"} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
+
     -- clipboard manager plugin
     use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06"}
 
 
     -- extra help plugins
-    use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac"}
-    use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef'}
+    use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac"} -- need for telescope
+    use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef'} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
 
     -- colorscheme
     use 'joshdick/onedark.vim'
