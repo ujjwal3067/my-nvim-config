@@ -5,7 +5,6 @@ if not status_ok then
 end 
 
 
-print("...Lualine initializing") 
 require('lualine').setup({
     options = { 
         icons_enabled = true, 
