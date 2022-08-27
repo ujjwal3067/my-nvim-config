@@ -113,7 +113,7 @@ telescope.setup {
 local map = vim.api.nvim_set_keymap
 local opts = {noremap = true, silent = true}
 -- cwd  = Current Working Directory 
-map('n', '<Space>ff', '<cmd>lua require("telescope.builtin").find_files({cwd = "%:h"})<CR>', opts)
+map('n', '<Space>ff', '<cmd>lua require("telescope.builtin").find_files()<CR>', opts)
 map('n', '<Space>fg', '<cmd>lua require("telescope.builtin").live_grep()<CR>', opts)
 map('n', '<Space>fb', '<cmd>lua require("telescope.builtin").buffers({sort_mru=true})<CR>', opts)
 map('n', '<Space>fh', '<cmd>lua require("telescope.builtin").help_tags()<CR>', opts)

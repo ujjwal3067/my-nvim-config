@@ -51,6 +51,7 @@ return packer.startup(function(use)
 
     -- extra help plugins
     use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac"}
+    use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef'}
 
     -- colorscheme
     use 'joshdick/onedark.vim'

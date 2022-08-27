@@ -29,6 +29,8 @@
 - nvim-web-devicons ( for enabling icons in lualine ) 
 - telescope  ( file finder , grepper, etc ) 
 - treesitter
+- cheatsheet
+
 ### colorscheme 
 - tokyonight
 - tender 
@@ -67,3 +69,6 @@ Many familiar mapping patterns are set up as defaults.
 | `<C-q>`        | Send all items not filtered to quickfixlist (qflist) |
 | `<M-q>`        | Send all selected items to qflist                    |
 
+
+# commands
+- `:Cheatsheet` - gives list of all vim commands in telescope buffer
