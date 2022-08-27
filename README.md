@@ -28,6 +28,7 @@
 - packer ( plugin manager ) 
 - nvim-web-devicons ( for enabling icons in lualine ) 
 - telescope  ( file finder , grepper, etc ) 
+- treesitter
 ### colorscheme 
 - tokyonight
 - tender 
