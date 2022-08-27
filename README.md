@@ -44,6 +44,7 @@ Many familiar mapping patterns are set up as defaults.
 #### LSP mapping
 #### Telescope mapping
 - currently using default mapping might change in future
+
 | Mappings       | Action                                               |
 |----------------|------------------------------------------------------|
 | `<C-n>/<Down>` | Next item                                            |
