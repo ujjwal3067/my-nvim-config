@@ -71,5 +71,8 @@ Many familiar mapping patterns are set up as defaults.
 | `<M-q>`        | Send all selected items to qflist                    |
 
 
-# commands
+# Commands
 - `:Cheatsheet` - gives list of all vim commands in telescope buffer
+
+# Todo 
+- [ ] Docker image for running this nvim in docker container (for preview purpose).  
