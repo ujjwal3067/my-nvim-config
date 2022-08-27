@@ -6,7 +6,6 @@ end
 -- setting up alias for telescope.actions for convenience
 local actions = require "telescope.actions"
 
-
 telescope.setup {
   defaults = {
 
@@ -105,11 +104,21 @@ telescope.setup {
     --   extension_config_key = value,
     -- }
     -- please take a look at the readme of the extension you want to configure
-    neoclip = {
+    fzf = { 
+            fuzzy = true,                       -- false will only do exact matching
+            override_generic_sorter = true,     -- override generic sorter 
+            override_generic_sorter = true,     -- override file soreter
+            case_mode = "smart_case",           -- or "ignore_case" or "respect_case" ( the default case mode is "smart_case") 
     } 
 
   },
 }
+
+-- loading telescope extensions
+telescope.load_extension("neoclip") -- clipboard manager
+telescope.load_extension("fzf") -- native fzf support for telescope
+
+
 
 -- key mapping for telescope
 -- NOTE : keeping variables local so that it doesn't interfere with global name space variables 
@@ -121,3 +130,4 @@ map('n', '<Space>fg', '<cmd>lua require("telescope.builtin").live_grep()<CR>', o
 map('n', '<Space>fb', '<cmd>lua require("telescope.builtin").buffers({sort_mru=true})<CR>', opts)
 map('n', '<Space>fh', '<cmd>lua require("telescope.builtin").help_tags()<CR>', opts)
 map('n', '<Space>fm', '<cmd>lua require("telescope.builtin").man_pages()<CR>', opts) -- listing man pages of linux commands
+map('n', '<Space>fc', '<cmd>lua require("telescope.builtin").colorscheme({enable_preview = true})<CR>', opts) -- previewing colorscheme

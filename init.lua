@@ -7,6 +7,7 @@ require("user.lualine")     -- lualine config ( status line for vim  )
 require("user.treesitter")  -- treesitter config
 require("user.telescope")   -- telescope config
 require("user.neoclip")     -- clipboard manager for neovim ( history of register as well )   
+require("user.bufferline")  -- custom neovim bufferline ( aka. tab bar ) 
 
 
 -- NOTE : remove it when done with telescope configuration 
