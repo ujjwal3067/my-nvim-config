@@ -81,7 +81,12 @@ telescope.setup {
         ["?"] = actions.which_key,
       },
     },
-  },
+
+    layout_configs = { 
+            vertical = { width = 0.5 } 
+
+    }, 
+  }, -- end of defaults
   pickers = {
     -- Default configuration for builtin pickers goes here:
     -- picker_name = {
@@ -90,6 +95,9 @@ telescope.setup {
     -- }
     -- Now the picker_config_key will be applied every time you call this
     -- builtin picker
+    find_files = { 
+            theme = "dropdown", 
+    }, 
   },
   extensions = {
     -- Your extension configuration goes here:
@@ -99,3 +107,14 @@ telescope.setup {
     -- please take a look at the readme of the extension you want to configure
   },
 }
+
+-- key mapping for telescope
+-- NOTE : keeping variables local so that it doesn't interfere with global name space variables 
+local map = vim.api.nvim_set_keymap
+local opts = {noremap = true, silent = true}
+-- cwd  = Current Working Directory 
+map('n', '<Space>ff', '<cmd>lua require("telescope.builtin").find_files({cwd = "%:h"})<CR>', opts)
+map('n', '<Space>fg', '<cmd>lua require("telescope.builtin").live_grep()<CR>', opts)
+map('n', '<Space>fb', '<cmd>lua require("telescope.builtin").buffers({sort_mru=true})<CR>', opts)
+map('n', '<Space>fh', '<cmd>lua require("telescope.builtin").help_tags()<CR>', opts)
+map('n', '<Space>fm', '<cmd>lua require("telescope.builtin").man_pages()<CR>', opts) -- listing man pages of linux commands

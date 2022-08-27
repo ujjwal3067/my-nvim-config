@@ -1,5 +1,5 @@
--- keybindings
---
+-- contains generic keymappings keybindings
+-- for plugin specific mapping see <plugin>.lua files
 vim.g.mapleader=' ' -- leader key (  NOTE : never use <space> to set leader key : it won't work)
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc='Save'})                       -- :w to <leader>w   
 vim.keymap.set('n', '<leader>q', '<cmd>:wq<cr>', {desc='Save + Quit'})                  -- :wq to <leader>q

@@ -48,6 +48,10 @@ return packer.startup(function(use)
     -- clipboard manager plugin
     use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06"}
 
+
+    -- extra help plugins
+    use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac"}
+
     -- colorscheme
     use 'joshdick/onedark.vim'
     use 'folke/tokyonight.nvim'
