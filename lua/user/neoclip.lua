@@ -6,3 +6,6 @@ if not status_ok then
 end
 
 config.setup()
+
+-- key mappings
+vim.keymap.set({'n', 'x'},'<leader>nn', ':Telescope neoclip<cr>')
