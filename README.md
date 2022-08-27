@@ -30,7 +30,7 @@
 - telescope  ( file finder , grepper, etc ) 
 - treesitter
 - cheatsheet
-- nvim-neoclip (**) [read the docs for better understanding of how it all works] 
+- nvim-neoclip (**) (read the docs for better understanding of how it all works)
 
 ### colorscheme 
 - tokyonight
