@@ -36,13 +36,13 @@ packer.init {
 
 return packer.startup(function(use)
     -- Packer can manage itself
-    use {'wbthomason/packer.nvim' , commit = "3a9f9801f683946b9f1047d8f4bf9946c29e927d"} 
+    use {'wbthomason/packer.nvim' , commit = "3a9f9801f683946b9f1047d8f4bf9946c29e927d", lock=true} 
    
     -- tools line
-    use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d"} -- better status line 
+    use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d", lock=true} -- better status line 
     use {'nvim-lua/plenary.nvim'}
-    use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7"} -- file finder, grepper etc. 
-    use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba"} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
+    use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7", lock=true} -- file finder, grepper etc. 
+    use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba",lock=true} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
 
 
 
@@ -50,21 +50,21 @@ return packer.startup(function(use)
 
 
     -- extra help plugins
-    use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac"} -- need for telescope
-    use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef'} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
-    use {'akinsho/bufferline.nvim',tag="v2.*", commit="fb7b17362eb6eedc57c37bdfd364f8e7d8149e31"} -- clipboard manager plugin
-    use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944"} -- for icons in statusline  ( needed by lualine ) 
+    use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac",lock=true} -- need for telescope
+    use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef',lock=true} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
+    use {'akinsho/bufferline.nvim',tag="v2.*", commit="fb7b17362eb6eedc57c37bdfd364f8e7d8149e31",lock=true} -- clipboard manager plugin
+    use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944",lock=true} -- for icons in statusline  ( needed by lualine ) 
 
     -- telescope plugin
-    use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make'}
-    use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06"}
+    use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
+    use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06", lock=true}
 
     -- colorscheme
-    use {'joshdick/onedark.vim', commit="1fe54f212f09a03c2b5e277f0fe5b7b9d0b0a4ed"} 
-    use {'folke/tokyonight.nvim', commit="8223c970677e4d88c9b6b6d81bda23daf11062bb"} 
-    use {'jacoborus/tender.vim', commit="7746453a045eaa97dc413a7209268345f33f3243"} 
-    use {'EdenEast/nightfox.nvim', commit="e2f961859cbfb2ba38147dc59fdd2314992c8b62"} 
-    use {'cocopon/iceberg.vim', commit ="61efc9c61dec54076c093af0cff304e30b0c3a07"}
-    use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac"}
+    use {'joshdick/onedark.vim', commit="1fe54f212f09a03c2b5e277f0fe5b7b9d0b0a4ed", lock=true} 
+    use {'folke/tokyonight.nvim', commit="8223c970677e4d88c9b6b6d81bda23daf11062bb",lock=true} 
+    use {'jacoborus/tender.vim', commit="7746453a045eaa97dc413a7209268345f33f3243", lock=true} 
+    use {'EdenEast/nightfox.nvim', commit="e2f961859cbfb2ba38147dc59fdd2314992c8b62", lock=true} 
+    use {'cocopon/iceberg.vim', commit ="61efc9c61dec54076c093af0cff304e30b0c3a07", lock=true}
+    use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac", lock=true}
 end)
 
