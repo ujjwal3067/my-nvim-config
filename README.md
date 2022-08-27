@@ -73,6 +73,8 @@ Many familiar mapping patterns are set up as defaults.
 
 # Commands
 - `:Cheatsheet` - gives list of all vim commands in telescope buffer
+- `<Space>q`: Save and Quit ( by default it maps to `:wq` instead of `:q!` to prevent quiting without saving) 
+- `zz` : force quiting without saving 
 
 # Todo 
 - [ ] Docker image for running this nvim in docker container (for preview purpose).  
