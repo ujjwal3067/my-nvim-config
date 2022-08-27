@@ -1,19 +1,5 @@
 # Custom config for neovim.    
 
-- directory structure
-- `lua/user` contains configuration for nevoim  + external plugins  
-```sh 
-├── init.lua
-├── lua
-│   └── user
-│       ├── color.lua
-│       ├── keymap.lua
-│       ├── lualine.lua
-│       ├── plugin.lua
-│       └── set.lua
-└── plugin
-    └── packer_compiled.lua
-```
 
 ## Lsp Setup   
 > NOTE : only included languages that I work with most often 
@@ -33,5 +19,3 @@
 - tender 
 - nightfox
 - onedark 
-
-
