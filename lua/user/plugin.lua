@@ -41,6 +41,7 @@ return packer.startup(function(use)
     -- tools line
     use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d"} -- better status line 
     use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944"} -- for icons in statusline  ( needed by lualine ) 
+    use {'nvim-lua/plenary.nvim'}
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7"} -- file finder, grepper etc. 
 
     -- clipboard manager plugin
