@@ -1,3 +1,4 @@
+-- Keep treesitter config simple because it will get complex and hard to maintain 
 local status_ok , configs = pcall(require, "nvim-treesitter.configs")
 if not status_ok then 
     return 
@@ -8,6 +9,7 @@ configs.setup({
     ignore_install = {""}, --  List of parser to ignore installing
     highlight = { 
         enable = true , -- false will disable the whole extension
+        additional_vim_regex_highlighting = false, -- keep it false for better performance 
     }, 
     autopairs = { 
         enable = true, 
