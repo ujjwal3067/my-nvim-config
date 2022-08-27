@@ -6,14 +6,17 @@ end
 -- setting up alias for telescope.actions for convenience
 local actions = require "telescope.actions"
 
+
 telescope.setup {
   defaults = {
 
     prompt_prefix = " ",
     selection_caret = " ",
     path_display = { "smart" },
+    file_ignore_patterns = { ".git/", "node_modules" },
 
     -- NOTE : These are default key mappings  but are displayed here for reference
+    -- To see the full list of mappings, check out lua/telescope/mappings.lua and the default_mappings table.
     mappings = {
       i = {
         ["<C-n>"] = actions.cycle_history_next,

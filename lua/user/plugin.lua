@@ -44,6 +44,7 @@ return packer.startup(function(use)
     use {'nvim-lua/plenary.nvim'}
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7"} -- file finder, grepper etc. 
 
+    use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba"} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
     -- clipboard manager plugin
     use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06"}
 
