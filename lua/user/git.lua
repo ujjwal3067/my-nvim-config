@@ -90,6 +90,7 @@ gitsigns.setup({
   end
 })
 
+---------------------------------------------------------------------------------------
 -- lazygit plugin
 vim.keymap.set({'n'},'<leader>gg', ':LazyGit<cr>') -- activate lazygit window in neovim 
 

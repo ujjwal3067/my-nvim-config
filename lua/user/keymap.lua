@@ -4,7 +4,8 @@ vim.g.mapleader=' ' -- leader key (  NOTE : never use <space> to set leader key 
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc='Save'})                       -- :w to <leader>w   
 vim.keymap.set('n', '<leader>q', '<cmd>:wq<cr>', {desc='Save + Quit'})                  -- :wq to <leader>q
 vim.keymap.set('i', 'jk', '<Esc>', {})
-vim.keymap.set('n', '<leader>h', '<cmd>:noh<cr>', {})                                   -- remove highlighted result similar to :noh command in command bar
+
+--vim.keymap.set('n', '<leader>h', '<cmd>:noh<cr>', {})                                   -- remove highlighted result similar to :noh command in command bar
 
 -- clipboard mapping
 vim.keymap.set({'n', 'x'},'cp', '"+y') -- copy to clipboard
