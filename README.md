@@ -83,6 +83,10 @@ Many familiar mapping patterns are set up as defaults.
 - `<Space>q`: Save and Quit ( by default it maps to `:wq` instead of `:q!` to prevent quiting without saving) 
 - `zz` : force quiting without saving 
 - '<leader>nn' : activate neoclip ( clipboard  history ) ( can also be mapped to include register history ).  
+- commenting
+    - '<leader>/'    : commenting in visual and normal mode
+    - 'gcb'          : block commenting in normal mode
+    - 'gb'           : block commenting in visual mode
 
 # Todo 
 - [ ] Lsp config for rust, c , python , typescript, java ( ** ). 
