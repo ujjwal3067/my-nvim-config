@@ -8,6 +8,7 @@ require("user.treesitter")  -- treesitter config
 require("user.telescope")   -- telescope config
 require("user.neoclip")     -- clipboard manager for neovim ( history of register as well )   
 require("user.bufferline")  -- custom neovim bufferline ( aka. tab bar ) 
+require("user.comment")     -- better commenting
 
 
 -- NOTE : remove it when done with telescope configuration 

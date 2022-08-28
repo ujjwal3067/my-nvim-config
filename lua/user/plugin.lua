@@ -43,17 +43,17 @@ return packer.startup(function(use)
     use {'nvim-lua/plenary.nvim'}
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7", lock=true} -- file finder, grepper etc. 
     use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba",lock=true} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
-
-
-
     
 
+    -- better commenting
+    use {'numToStr/Comment.nvim', commit="80e7746e42fa685077a7941e9022308c7ad6adf8", lock=true}
 
     -- extra help plugins
     use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac",lock=true} -- need for telescope
     use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef',lock=true} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
     use {'akinsho/bufferline.nvim',tag="v2.*", commit="fb7b17362eb6eedc57c37bdfd364f8e7d8149e31",lock=true} -- clipboard manager plugin
     use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944",lock=true} -- for icons in statusline  ( needed by lualine ) 
+
 
     -- telescope plugin
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
@@ -67,5 +67,7 @@ return packer.startup(function(use)
     use {'cocopon/iceberg.vim', commit ="61efc9c61dec54076c093af0cff304e30b0c3a07", lock=true}
     use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac", lock=true}
     use {'projekt0n/github-nvim-theme', commit="b3f15193d1733cc4e9c9fe65fbfec329af4bdc2a", lock=true}
+    use {'lifepillar/vim-solarized8', commit= "9f9b7951975012ce51766356c7c28ba56294f9e8", lock=true}
+    
 end)
 
