@@ -49,7 +49,7 @@ return packer.startup(function(use)
     use {'numToStr/Comment.nvim', commit="80e7746e42fa685077a7941e9022308c7ad6adf8", lock=true}
 
     -- better editing
-    use {'windwp/nvim-autopairs', commit ="0a18e10a0c3fde190437567e40557dcdbbc89ea1"}
+    use {'windwp/nvim-autopairs', commit ="0a18e10a0c3fde190437567e40557dcdbbc89ea1", lock=true}
 
     -- extra help plugins
     use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac",lock=true} -- need for telescope
