@@ -56,6 +56,7 @@ return packer.startup(function(use)
     use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef',lock=true} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
     use {'akinsho/bufferline.nvim',tag="v2.*", commit="fb7b17362eb6eedc57c37bdfd364f8e7d8149e31",lock=true} -- clipboard manager plugin
     use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944",lock=true} -- for icons in statusline  ( needed by lualine ) 
+    use {'kyazdani42/nvim-tree.lua', commit="ce5d0a6b7ddfec622554943d2ebcc739b1d74567", lock=true} -- tree file explorer
 
     -- telescope plugin
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
@@ -66,8 +67,9 @@ return packer.startup(function(use)
     use {'kdheepak/lazygit.nvim', commit="9c73fd69a4c1cb3b3fc35b741ac968e331642600", lock=true}   -- plugin for calling lazygit from neovim.
 
 
-    -- neovim remote sessions
-    --use {'mhinz/neovim-remote', commit="1004d41696a3de12f0911b1949327c3dbe4a62ab", lock=true}
+    -- lsp 
+    use {'neovim/nvim-lspconfig', commit="cedfda66a6cdfc32b370b2d4bd5b5c3c9cb4ab38", lock=true} -- for basic lsp config for all langauges
+    use {'hrsh7th/nvim-cmp', commit="058100d81316239f3874064064f0f0c5d43c2103",lock=true}       -- for autocompletion
 
 
     -- startup  

@@ -134,10 +134,25 @@ _G.packer_plugins = {
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-neoclip.lua"] = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/nvim-neoclip.lua",
     url = "https://github.com/AckslD/nvim-neoclip.lua"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -168,11 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
-  },
-  ["spellsitter.nvim"] = {
-    loaded = true,
-    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/spellsitter.nvim",
-    url = "https://github.com/lewis6991/spellsitter.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

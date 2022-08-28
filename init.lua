@@ -12,5 +12,7 @@ require("user.comment")     -- better commenting
 require("user.autopair")    -- auto pairing for better editing
 require("user.startup")     -- custom startup screen + optimization  
 require("user.git")         -- all configuration related to git (files contains confiugration for multiple plugins related to git)
+require("user.nvim-tree")   -- file explorer of left like modern IDE.  ( can be used as dir in emacs)
 
 
+-- lsp related stuff
