@@ -70,6 +70,7 @@ return packer.startup(function(use)
     -- lsp 
     use {'neovim/nvim-lspconfig', commit="cedfda66a6cdfc32b370b2d4bd5b5c3c9cb4ab38", lock=true} -- for basic lsp config for all langauges
     use {'hrsh7th/nvim-cmp', commit="058100d81316239f3874064064f0f0c5d43c2103",lock=true}       -- for autocompletion
+    use {'williamboman/nvim-lsp-installer', commit="ae913cb4fd62d7a84fb1582e11f2e15b4d597123", lock=true} -- pluging used for installing language servers.
 
 
     -- startup  
