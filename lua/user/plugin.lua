@@ -48,6 +48,9 @@ return packer.startup(function(use)
     -- better commenting
     use {'numToStr/Comment.nvim', commit="80e7746e42fa685077a7941e9022308c7ad6adf8", lock=true}
 
+    -- better editing
+    use {'windwp/nvim-autopairs', commit ="0a18e10a0c3fde190437567e40557dcdbbc89ea1"}
+
     -- extra help plugins
     use {'nvim-lua/popup.nvim', commit="b7404d35d5d3548a82149238289fa71f7f6de4ac",lock=true} -- need for telescope
     use {'sudormrfbin/cheatsheet.nvim', commit='9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef',lock=true} -- usage :CheatSheet  ( displays all the commands + info in telescope buffer ).  
