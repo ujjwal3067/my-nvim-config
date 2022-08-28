@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/iceberg.vim",
     url = "https://github.com/cocopon/iceberg.vim"
+  },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,

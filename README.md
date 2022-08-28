@@ -35,6 +35,8 @@
 - bufferline
 - numTostr/comment ( for easy commenting multiple lines & groups) 
 - autopair 
+- alpha  ( startup screen )
+- impatient ( startup optimization )
 
 
 ### colorscheme 

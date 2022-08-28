@@ -10,6 +10,8 @@ require("user.neoclip")     -- clipboard manager for neovim ( history of registe
 require("user.bufferline")  -- custom neovim bufferline ( aka. tab bar ) 
 require("user.comment")     -- better commenting
 require("user.autopair")    -- auto pairing for better editing
+require("user.startup")     -- custom startup screen + optimization  
+
 
 
 -- NOTE : remove it when done with telescope configuration 
