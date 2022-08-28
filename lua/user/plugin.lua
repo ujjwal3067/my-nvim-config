@@ -40,7 +40,7 @@ return packer.startup(function(use)
    
     -- tools line
     use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d", lock=true} -- better status line 
-    use {'nvim-lua/plenary.nvim'}
+    use {'nvim-lua/plenary.nvim', commit="a3dafaa937921a4eb2ae65820c3479ab561e9ba3", lock=true} -- common functions that other plugins uses.
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7", lock=true} -- file finder, grepper etc. 
     use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba",lock=true} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
     
@@ -64,6 +64,10 @@ return packer.startup(function(use)
     -- git 
     use {'lewis6991/gitsigns.nvim', commit="1e107c91c0c5e3ae72c37df8ffdd50f87fb3ebfa", lock=true} -- Super fast git decorations implemented purely in lua/teal.
     use {'kdheepak/lazygit.nvim', commit="9c73fd69a4c1cb3b3fc35b741ac968e331642600", lock=true}   -- plugin for calling lazygit from neovim.
+
+
+    -- neovim remote sessions
+    --use {'mhinz/neovim-remote', commit="1004d41696a3de12f0911b1949327c3dbe4a62ab", lock=true}
 
 
     -- startup  
