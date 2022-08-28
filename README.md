@@ -38,10 +38,13 @@
 - autopair 
 - alpha  ( startup screen )
 - impatient ( startup optimization )
+
 - git related
  - gitsigns 
  - lazygit ( integrates lazy to neovim )
+
 - nvim-tree ( file explorere on left side bar) 
+
 - LSP related :  
  - cmp-nvim-lsp
  - nvim-lspconfig
