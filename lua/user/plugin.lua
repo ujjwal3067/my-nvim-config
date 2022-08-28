@@ -61,6 +61,11 @@ return packer.startup(function(use)
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
     use {'AckslD/nvim-neoclip.lua', commit="74af02e289b3ea465bc8a4d7b9b83adc4e4b8c06", lock=true}
 
+    -- git 
+    use {'lewis6991/gitsigns.nvim', commit="1e107c91c0c5e3ae72c37df8ffdd50f87fb3ebfa", lock=true} -- Super fast git decorations implemented purely in lua/teal.
+    use {'kdheepak/lazygit.nvim', commit="9c73fd69a4c1cb3b3fc35b741ac968e331642600", lock=true}   -- plugin for calling lazygit from neovim.
+
+
     -- startup  
     use {'lewis6991/impatient.nvim', commit="b842e16ecc1a700f62adb9802f8355b99b52a5a6", lock=true} -- for improving startup time for neovim
     use {'goolord/alpha-nvim', commit="1e12c492fdd09a812f960e83048af6d2d18b9b6b", lock=true} -- fast and fully programmable startup greeter 

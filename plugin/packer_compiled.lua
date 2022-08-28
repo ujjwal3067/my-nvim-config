@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["iceberg.vim"] = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/iceberg.vim",
@@ -108,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,

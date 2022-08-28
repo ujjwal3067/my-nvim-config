@@ -11,9 +11,6 @@ require("user.bufferline")  -- custom neovim bufferline ( aka. tab bar )
 require("user.comment")     -- better commenting
 require("user.autopair")    -- auto pairing for better editing
 require("user.startup")     -- custom startup screen + optimization  
+require("user.git")         -- all configuration related to git (files contains confiugration for multiple plugins related to git)
 
 
-
--- NOTE : remove it when done with telescope configuration 
-vim.g.netrw_banner=0
-vim.g.netrw_winsize=30
