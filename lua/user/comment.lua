@@ -44,25 +44,25 @@ comment.setup(
     ---LHS of toggle mappings in NORMAL mode
     toggler = {
         ---Line-comment toggle keymap
-        line = 'gcc',
+        line = '<leader>/', -- original 'gcc'
         ---Block-comment toggle keymap
-        block = 'gbc',
+        block = 'gbc', -- original 'gbc'
     },
     ---LHS of operator-pending mappings in NORMAL and VISUAL mode
     opleader = {
         ---Line-comment keymap
-        line = 'gc',
+        line = '<leader>/', -- original 'gc'
         ---Block-comment keymap
-        block = 'gb',
+        block = 'gb', -- original 'gb'
     },
     ---LHS of extra mappings
     extra = {
         ---Add comment on the line above
-        above = 'gcO',
+        above = 'gcO', -- original 'gcO'
         ---Add comment on the line below
-        below = 'gco',
+        below = 'gco', -- original 'gco'
         ---Add comment at the end of line
-        eol = 'gcA',
+        eol = 'gcA', -- original 'gcA'
     },
     ---Enable keybindings
     ---NOTE: If given `false` then the plugin won't create any mappings
