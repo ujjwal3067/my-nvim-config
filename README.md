@@ -37,6 +37,9 @@
 - autopair 
 - alpha  ( startup screen )
 - impatient ( startup optimization )
+- git related
+ - gitsigns 
+ - lazygit ( integrates lazy to neovim )
 
 
 ### colorscheme 
@@ -90,6 +93,8 @@ Many familiar mapping patterns are set up as defaults.
     - `<leader>/`    : commenting in visual and normal mode
     - `gcb`          : block commenting in normal mode
     - `gb`           : block commenting in visual mode
+-- Git 
+    - For git related setting refer : `lua/user/git.lua ` file
 
 # Todo 
 - [ ] Lsp config for rust, c , python , typescript, java ( ** ). 

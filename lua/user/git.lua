@@ -17,7 +17,7 @@ gitsigns.setup({
   },
   signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`
   numhl      = true, -- Toggle with `:Gitsigns toggle_numhl`
-  linehl     = true, -- Toggle with `:Gitsigns toggle_linehl` : default false
+  linehl     = false, -- Toggle with `:Gitsigns toggle_linehl` : default false
   word_diff  = false, -- Toggle with `:Gitsigns toggle_word_diff` : default false ( :NOTE this is very interesting setting to think about)
   watch_gitdir = {
     interval = 1000,
