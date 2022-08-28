@@ -31,12 +31,18 @@
 - treesitter
 - cheatsheet
 - nvim-neoclip (**) (read the docs for better understanding of how it all works)
+- nvim-web-devicons ( for better icons in lua line + telescope + bufferline) 
+- bufferline
+
 
 ### colorscheme 
 - tokyonight
 - tender 
 - nightfox
 - onedark 
+- kanagawa ( default ) 
+- iceberg 
+- github-nvim-theme
 
 
 ## Default Mappings
