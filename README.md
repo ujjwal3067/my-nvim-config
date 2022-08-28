@@ -100,3 +100,7 @@ Many familiar mapping patterns are set up as defaults.
 # Todo 
 - [ ] Lsp config for rust, c , python , typescript, java ( ** ). 
 - [ ] Docker image for running this nvim in docker container (for preview purpose).  
+
+
+## References
+- [5 terrific Neovim Telescope Extensions for 2022](https://www.youtube.com/watch?v=indguFY7wJ0)
