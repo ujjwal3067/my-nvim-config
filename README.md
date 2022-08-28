@@ -34,6 +34,7 @@
 - nvim-web-devicons ( for better icons in lua line + telescope + bufferline) 
 - bufferline
 - numTostr/comment ( for easy commenting multiple lines & groups) 
+- autopair 
 
 
 ### colorscheme 
