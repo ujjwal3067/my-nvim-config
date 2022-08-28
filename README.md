@@ -41,12 +41,12 @@
 - git related
  - gitsigns 
  - lazygit ( integrates lazy to neovim )
- - LSP related :  
-    - cmp-nvim-lsp
-    - nvim-lspconfig
+- nvim-tree ( file explorere on left side bar) 
+- LSP related :  
+ - cmp-nvim-lsp
+ - nvim-lspconfig
 
 - DAP related ( Debugger Adapter Protocol)
-- 
     
     
 
