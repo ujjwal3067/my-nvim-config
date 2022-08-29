@@ -229,6 +229,11 @@ _G.packer_plugins = {
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
+  },
   ["vim-solarized8"] = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/vim-solarized8",

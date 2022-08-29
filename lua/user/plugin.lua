@@ -75,6 +75,7 @@ return packer.startup(function(use)
     use {'hrsh7th/cmp-path', commit="447c87cdd6e6d6a1d2488b1d43108bfa217f56e1",lock=true} -- nvim-cmp source for path 
     use {'hrsh7th/cmp-nvim-lsp', commit="affe808a5c56b71630f17aa7c38e15c59fd648a8",lock=true} -- nvim-cmp source for neovim builtin lsp 
     use {'rafamadriz/friendly-snippets', commit="6227548c97d7bd7d2f5f0897814c16649fcce368", lock=true} --set of preconfigured snippets for different languages
+    use {'RRethy/vim-illuminate', commit="9179f9cb3d7a97c5724d215c671b6eb578e63520", lock=true} -- pluging for automatically highlighting other uses of the word under the cursor using either LSP, treeSitter or regex matching
 
 
     -- startup  

@@ -16,3 +16,7 @@ require("user.nvim-tree")   -- file explorer of left like modern IDE.  ( can be 
 
 
 -- lsp related stuff
+require("user.lsp")         -- because lsp/ folder contains init.lua file this folder is going to be sources automatically 
+                            -- This folder contains lsp related configs. 
+--
+require("user.cmp")         -- plugin for lsp autocompletion ( uses neovim native lsp engine). 
