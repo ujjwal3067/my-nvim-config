@@ -92,4 +92,3 @@ return packer.startup(function(use)
     use {'lifepillar/vim-solarized8', commit= "9f9b7951975012ce51766356c7c28ba56294f9e8", lock=true}
     
 end)
-
