@@ -33,6 +33,6 @@ vim.keymap.set({'n', 'x'},'<leader>,', ':NvimTreeToggle<CR>', opts) -- toggle
 
 --  Navigate buffer ( bufferline )
 -- NOTE : <right> = right arrow key and <left> = left arrow key
-vim.keymap.set({'n', 'x', 'i'},'<right>', ':BufferLineCycleNext<cr>', opts)  -- cycle left to right
-vim.keymap.set({'n', 'x', 'i'},'<left>', ':BufferLineCyclePrev<cr>', opts)   -- cycle right to left
-vim.keymap.set("n", "<S-q>", ":bd<CR>", opts)                      -- close current buffer
+vim.keymap.set({'n', 'x', 'i'},'<right>', '<cmd>BufferLineCycleNext<cr>', opts)  -- cycle left to right
+vim.keymap.set({'n', 'x', 'i'},'<left>', '<cmd>BufferLineCyclePrev<cr>', opts)   -- cycle right to left
+vim.keymap.set("n", "<S-q>", "<cmd>bd<CR>", opts)                                -- close current buffer

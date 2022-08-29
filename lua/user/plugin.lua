@@ -71,6 +71,10 @@ return packer.startup(function(use)
     use {'neovim/nvim-lspconfig', commit="cedfda66a6cdfc32b370b2d4bd5b5c3c9cb4ab38", lock=true} -- for basic lsp config for all langauges
     use {'hrsh7th/nvim-cmp', commit="058100d81316239f3874064064f0f0c5d43c2103",lock=true}       -- for autocompletion
     use {'williamboman/nvim-lsp-installer', commit="ae913cb4fd62d7a84fb1582e11f2e15b4d597123", lock=true} -- pluging used for installing language servers.
+    use {'hrsh7th/cmp-buffer', commit="3022dbc9166796b644a841a02de8dd1cc1d311fa", lock=true} -- nvim-cmp source for buffer words
+    use {'hrsh7th/cmp-path', commit="447c87cdd6e6d6a1d2488b1d43108bfa217f56e1",lock=true} -- nvim-cmp source for path 
+    use {'hrsh7th/cmp-nvim-lsp', commit="affe808a5c56b71630f17aa7c38e15c59fd648a8",lock=true} -- nvim-cmp source for neovim builtin lsp 
+    use {'rafamadriz/friendly-snippets', commit="6227548c97d7bd7d2f5f0897814c16649fcce368", lock=true} --set of preconfigured snippets for different languages
 
 
     -- startup  

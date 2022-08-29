@@ -101,8 +101,14 @@ Many familiar mapping patterns are set up as defaults.
     - `<leader>/`    : commenting in visual and normal mode
     - `gcb`          : block commenting in normal mode
     - `gb`           : block commenting in visual mode
--- Git 
+- Git 
     - For git related setting refer : `lua/user/git.lua ` file
+
+- buffer
+    - right and left arrow key to change buffer
+    - another way to change buffer `<leader>fb` : opens telescope pop with buffer list
+    - Shift-q : close the current buffer you are on.
+- lsp 
 
 # Todo 
 - [ ] Lsp config for rust, c , python , typescript, java ( ** ). 
