@@ -8,7 +8,23 @@
 -- This file can be loaded by calling 'lua require('plugins') from your init.vim
 -- only required if you have packer configuration as 'opt'
 
---vim.cmd [[ packadd packer.nvim ]]
+
+-- Automatically install packer ( good for porting neovim to different system)
+local fn = vim.fn
+local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
+if fn.empty(fn.glob(install_path)) > 0 then
+  PACKER_BOOTSTRAP = fn.system {
+    "git",
+    "clone",
+    "--depth",
+    "1",
+    "https://github.com/wbthomason/packer.nvim",
+    install_path,
+  }
+  print "Installing packer close and reopen Neovim..."
+  vim.cmd [[packadd packer.nvim]]
+end
+
 
 -- Autocommand that reloads neovim whenever you save the plugins.lua file
 vim.cmd [[
@@ -92,4 +108,10 @@ return packer.startup(function(use)
     use {'projekt0n/github-nvim-theme', commit="b3f15193d1733cc4e9c9fe65fbfec329af4bdc2a", lock=true}
     use {'lifepillar/vim-solarized8', commit= "9f9b7951975012ce51766356c7c28ba56294f9e8", lock=true}
     
+      -- Automatically set up your configuration after cloning packer.nvim
+      -- Put this at the end after all plugins
+      if PACKER_BOOTSTRAP then
+        require("packer").sync()
+      end
+
 end)

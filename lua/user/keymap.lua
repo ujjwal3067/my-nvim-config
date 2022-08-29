@@ -18,7 +18,7 @@ vim.keymap.set('n', '<leader>q', '<cmd>:wq<cr>', {desc='Save + Quit'})          
 vim.keymap.set('i', 'jk', '<Esc>', {})
 
 -- clear highlights ( NOTE: not setting this because <Space>h* is used for Gitsings hunk related mappings    )
---vim.keymap.set('n', '<leader>h', '<cmd>:noh<cr>', {})  
+vim.keymap.set('n', '<leader>nh', '<cmd>:noh<cr>', {})  
 
 -- clipboard mapping
 vim.keymap.set({'n', 'x'},'cp', '"+y', opts) -- copy to clipboard

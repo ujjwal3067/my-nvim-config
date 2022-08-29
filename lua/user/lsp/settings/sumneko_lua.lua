@@ -1,4 +1,5 @@
 -- lua language config
+-- mostly default config
 return {
   settings = {
     Lua = {

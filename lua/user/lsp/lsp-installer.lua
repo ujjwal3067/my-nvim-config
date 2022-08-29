@@ -27,6 +27,7 @@ end
 
 local opts = {}
 
+-- BUG: attach is not working
 for _, server in pairs(servers) do
   opts = {
     on_attach = require("user.lsp.handlers").on_attach,

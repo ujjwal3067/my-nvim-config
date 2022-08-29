@@ -7,6 +7,7 @@ end
 
 M.capabilities = vim.lsp.protocol.make_client_capabilities()
 M.capabilities.textDocument.completion.completionItem.snippetSupport = true
+-- This is addes cmp-nvim_lsp capabilities aka autocompletion 
 M.capabilities = cmp_nvim_lsp.update_capabilities(M.capabilities) -- adding some extra supported capabilities 
 
 -- NOTE : This setup method is called in user.lsp.init.lua file
@@ -52,7 +53,6 @@ M.setup = function()
     border = "rounded",
   })
 end
-
 
 -- private function just to this file
 -- NOTE : noremap  = true (to prevent recursive)
