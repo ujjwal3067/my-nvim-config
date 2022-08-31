@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["alpha-nvim"] = {
     loaded = true,
     path = "/Users/ujjwal/.local/share/nvim/site/pack/packer/start/alpha-nvim",

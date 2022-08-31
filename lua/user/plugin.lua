@@ -95,6 +95,9 @@ return packer.startup(function(use)
     use {'RRethy/vim-illuminate', commit="9179f9cb3d7a97c5724d215c671b6eb578e63520", lock=true} -- pluging for automatically highlighting other uses of the word under the cursor using either LSP, treeSitter or regex matching
     use {'jose-elias-alvarez/null-ls.nvim', commit="de751688c991216f0d17ced7d5076e0c37fa383f", lock=true} -- for diagnostic , code actions and more via lua. 
 
+    -- snippets
+    use { "L3MON4D3/LuaSnip", commit="18439321965ed6deb849b9a438bd95a16184430d" ,lock=true} --snippet engine
+
 
     -- startup  
     use {'lewis6991/impatient.nvim', commit="b842e16ecc1a700f62adb9802f8355b99b52a5a6", lock=true} -- for improving startup time for neovim
