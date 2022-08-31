@@ -117,3 +117,4 @@ Many familiar mapping patterns are set up as defaults.
 
 ## References
 - [5 terrific Neovim Telescope Extensions for 2022](https://www.youtube.com/watch?v=indguFY7wJ0)
+- [Setup nvim lspconfig plus nvim cmp](https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/)

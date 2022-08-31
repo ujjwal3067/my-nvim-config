@@ -1,5 +1,6 @@
 -- lua language config
 -- mostly default config
+-- usage  : local sumneko_opts = require "user.lsp.settings.sumneko_lua"
 return {
   settings = {
     Lua = {

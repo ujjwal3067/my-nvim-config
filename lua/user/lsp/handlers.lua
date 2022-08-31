@@ -1,3 +1,5 @@
+-- You can consider it a global configuration that you can share between all the servers. 
+-- NOTE : read this to understand the inner working of lsp config setup  : https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/
 local M = {} -- table
 
 local status_cmp_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
@@ -5,7 +7,9 @@ if not status_cmp_ok then
   return
 end
 
-M.capabilities = vim.lsp.protocol.make_client_capabilities()
+
+-- M.capabilities : The data on this option is send to the server, to announce what features the editor can support  
+M.capabilities = vim.lsp.protocol.make_client_capabilities() -- to build the default capabilities
 M.capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- This is addes cmp-nvim_lsp capabilities aka autocompletion 
 M.capabilities = cmp_nvim_lsp.update_capabilities(M.capabilities) -- adding some extra supported capabilities 
@@ -77,6 +81,7 @@ local function lsp_keymaps(bufnr)
 end
 
 -- NOTE : this attach method is used in user.lsp.lsp-installer.lua file
+-- call back function that will be executed when a language server is attached to a buffer. (NOTE : it is recommend that we set our keybindings and commands in this function). 
 M.on_attach = function(client, bufnr)
   if client.name == "tsserver" then
     client.resolved_capabilities.document_formatting = true -- turn on document formating 

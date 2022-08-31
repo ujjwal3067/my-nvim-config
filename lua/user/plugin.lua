@@ -73,6 +73,7 @@ return packer.startup(function(use)
     use {'akinsho/bufferline.nvim',tag="v2.*", commit="fb7b17362eb6eedc57c37bdfd364f8e7d8149e31",lock=true} -- clipboard manager plugin
     use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944",lock=true} -- for icons in statusline  ( needed by lualine ) 
     use {'kyazdani42/nvim-tree.lua', commit="ce5d0a6b7ddfec622554943d2ebcc739b1d74567", lock=true} -- tree file explorer
+    use {'lukas-reineke/indent-blankline.nvim', commit="c15bbe9f23d88b5c0b4ca45a446e01a0a3913707", lock=true} -- for indent line
 
     -- telescope plugin
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
@@ -92,6 +93,7 @@ return packer.startup(function(use)
     use {'hrsh7th/cmp-nvim-lsp', commit="affe808a5c56b71630f17aa7c38e15c59fd648a8",lock=true} -- nvim-cmp source for neovim builtin lsp 
     use {'rafamadriz/friendly-snippets', commit="6227548c97d7bd7d2f5f0897814c16649fcce368", lock=true} --set of preconfigured snippets for different languages
     use {'RRethy/vim-illuminate', commit="9179f9cb3d7a97c5724d215c671b6eb578e63520", lock=true} -- pluging for automatically highlighting other uses of the word under the cursor using either LSP, treeSitter or regex matching
+    use {'jose-elias-alvarez/null-ls.nvim', commit="de751688c991216f0d17ced7d5076e0c37fa383f", lock=true} -- for diagnostic , code actions and more via lua. 
 
 
     -- startup  
