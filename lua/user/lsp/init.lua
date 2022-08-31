@@ -1,7 +1,9 @@
-local status_ok , _ = pcall(require, "lspconfig")
-if not staus_ok then 
-    return 
+local status_ok, _ = pcall(require, "lspconfig")
+if not status_ok then
+    print("[ERROR] cannot load 'lspconfig' plugin")
+  return
 end
+
  
 print("[INFO] Setting up lsp config...")
 require("user.lsp.lsp-installer") -- responsible for installing language server for the language specified in the config 
