@@ -96,7 +96,7 @@ telescope.setup {
     -- Now the picker_config_key will be applied every time you call this
     -- builtin picker
     find_files = { 
-            theme = "dropdown", 
+            theme = "ivy", 
     }, 
   },
   extensions = {
@@ -108,7 +108,6 @@ telescope.setup {
     fzf = { 
             fuzzy = true,                       -- false will only do exact matching
             override_generic_sorter = true,     -- override generic sorter 
-            override_generic_sorter = true,     -- override file soreter
             case_mode = "smart_case",           -- or "ignore_case" or "respect_case" ( the default case mode is "smart_case") 
     } 
 
@@ -132,3 +131,5 @@ map('n', '<Space>fb', '<cmd>lua require("telescope.builtin").buffers({sort_mru=t
 map('n', '<Space>fh', '<cmd>lua require("telescope.builtin").help_tags()<CR>', opts)
 map('n', '<Space>fm', '<cmd>lua require("telescope.builtin").man_pages()<CR>', opts) -- listing man pages of linux commands
 map('n', '<Space>fc', '<cmd>lua require("telescope.builtin").colorscheme({enable_preview = true})<CR>', opts) -- previewing colorscheme
+map('n', '<Space>fd', '<cmd>:Telescope diagnostics<CR>', opts) -- open diagnostic list
+
