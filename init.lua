@@ -13,6 +13,9 @@ require("user.autopair")    -- auto pairing for better editing
 require("user.startup")     -- custom startup screen + optimization  
 require("user.git")         -- all configuration related to git (files contains confiugration for multiple plugins related to git)
 require("user.nvim-tree")   -- file explorer of left like modern IDE.  ( can be used as dir in emacs)
+require("user.autocommands") -- some autocomamnds to get rid for some annoying different stuff.
+require("user.illuminate")  -- high similar words  (+ blacklist addition)
+require("user.project")     -- to detect root of the project
 
 
 -- lsp related stuff

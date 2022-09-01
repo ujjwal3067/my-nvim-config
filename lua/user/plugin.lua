@@ -74,6 +74,7 @@ return packer.startup(function(use)
     use { 'kyazdani42/nvim-web-devicons', commit = "2d02a56189e2bde11edd4712fea16f08a6656944",lock=true} -- for icons in statusline  ( needed by lualine ) 
     use {'kyazdani42/nvim-tree.lua', commit="ce5d0a6b7ddfec622554943d2ebcc739b1d74567", lock=true} -- tree file explorer
     use {'lukas-reineke/indent-blankline.nvim', commit="c15bbe9f23d88b5c0b4ca45a446e01a0a3913707", lock=true} -- for indent line
+    use {'ahmedkhalf/project.nvim', commit='090bb11ee7eb76ebb9d0be1c6060eac4f69a240f', lock=true} -- auto detect the root directory  
 
     -- telescope plugin
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}

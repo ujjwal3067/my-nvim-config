@@ -28,7 +28,6 @@ if not lspconfig_status_ok then
 end
 
 local opts = {}
-print("[INFO] Attaching server to this buffer......")
 for _, server in pairs(servers) do
   opts = {
     on_attach = require("user.lsp.handlers").on_attach,
