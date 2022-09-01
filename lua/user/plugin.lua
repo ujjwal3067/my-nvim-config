@@ -52,14 +52,14 @@ packer.init {
 
 return packer.startup(function(use)
     -- Packer can manage itself
-    use {'wbthomason/packer.nvim' , commit = "3a9f9801f683946b9f1047d8f4bf9946c29e927d", lock=true} 
-   
+    use {'wbthomason/packer.nvim' , commit = "3a9f9801f683946b9f1047d8f4bf9946c29e927d", lock=true}
+
     -- tools line
     use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d", lock=true} -- better status line 
     use {'nvim-lua/plenary.nvim', commit="a3dafaa937921a4eb2ae65820c3479ab561e9ba3", lock=true} -- common functions that other plugins uses.
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7", lock=true} -- file finder, grepper etc. 
     use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba",lock=true} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
-    
+
 
     -- better commenting
     use {'numToStr/Comment.nvim', commit="80e7746e42fa685077a7941e9022308c7ad6adf8", lock=true}
@@ -105,15 +105,16 @@ return packer.startup(function(use)
     use {'goolord/alpha-nvim', commit="1e12c492fdd09a812f960e83048af6d2d18b9b6b", lock=true} -- fast and fully programmable startup greeter 
 
     -- colorscheme
-    use {'joshdick/onedark.vim', commit="1fe54f212f09a03c2b5e277f0fe5b7b9d0b0a4ed", lock=true} 
-    use {'folke/tokyonight.nvim', commit="8223c970677e4d88c9b6b6d81bda23daf11062bb",lock=true} 
-    use {'jacoborus/tender.vim', commit="7746453a045eaa97dc413a7209268345f33f3243", lock=true} 
-    use {'EdenEast/nightfox.nvim', commit="e2f961859cbfb2ba38147dc59fdd2314992c8b62", lock=true} 
+    use {'joshdick/onedark.vim', commit="1fe54f212f09a03c2b5e277f0fe5b7b9d0b0a4ed", lock=true}
+    use {'folke/tokyonight.nvim', commit="8223c970677e4d88c9b6b6d81bda23daf11062bb",lock=true}
+    use {'jacoborus/tender.vim', commit="7746453a045eaa97dc413a7209268345f33f3243", lock=true}
+    use {'EdenEast/nightfox.nvim', commit="e2f961859cbfb2ba38147dc59fdd2314992c8b62", lock=true}
     use {'cocopon/iceberg.vim', commit ="61efc9c61dec54076c093af0cff304e30b0c3a07", lock=true}
     use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac", lock=true}
     use {'projekt0n/github-nvim-theme', commit="b3f15193d1733cc4e9c9fe65fbfec329af4bdc2a", lock=true}
     use {'lifepillar/vim-solarized8', commit= "9f9b7951975012ce51766356c7c28ba56294f9e8", lock=true}
-    
+    use {'RRethy/nvim-base16', commit="853faf64ea80e65950838d2b35466b1eb6036cef", lock=true}
+
       -- Automatically set up your configuration after cloning packer.nvim
       -- Put this at the end after all plugins
       if PACKER_BOOTSTRAP then

@@ -1,7 +1,7 @@
 local status_ok , telescope = pcall(require, "telescope")
-if not status_ok then 
+if not status_ok then
     return
-end 
+end
 
 -- setting up alias for telescope.actions for convenience
 local actions = require "telescope.actions"
@@ -9,11 +9,38 @@ local actions = require "telescope.actions"
 telescope.setup {
   defaults = {
 
+     -- commands used for live - grepping ( this are default )
+     vimgrep_arguments = {
+      "rg",
+      "--color=never",
+      "--no-heading",
+      "--with-filename",
+      "--line-number",
+      "--column",
+      "--smart-case",
+    },
+
     --prompt_prefix = " ", -- default
     prompt_prefix = "> ",
     selection_caret = " ",
     path_display = { "smart" },
     file_ignore_patterns = { ".git/", "node_modules" },
+    layout_strategy = "horizontal",
+    layout_configs = {
+        horizontal = {
+            prompt_position = "top",
+            preview_width = 0.55,
+            results_width=0.8,
+        },
+        vertical = {
+                mirror = false,
+        },
+       width = 0.87,
+       height = 0.80,
+       preview_cutoff = 120,
+    },
+
+    file_sorter = require("telescope.sorters").get_fuzzy_file,
 
     -- NOTE : These are default key mappings  but are displayed here for reference
     -- To see the full list of mappings, check out lua/telescope/mappings.lua and the default_mappings table.
@@ -81,35 +108,34 @@ telescope.setup {
         ["?"] = actions.which_key,
       },
     },
-
-    layout_configs = { 
-            vertical = { width = 0.5 } 
-
-    }, 
   }, -- end of defaults
-  pickers = {
-    -- Default configuration for builtin pickers goes here:
-    -- picker_name = {
-    --   picker_config_key = value,
-    --   ...
-    -- }
-    -- Now the picker_config_key will be applied every time you call this
-    -- builtin picker
-    find_files = { 
-            theme = "ivy", 
-    }, 
-  },
+
+
+
+  -- pickers = {
+  --   -- Default configuration for builtin pickers goes here:
+  --   -- picker_name = {
+  --   --   picker_config_key = value,
+  --   --   ...
+  --   -- }
+  --   -- Now the picker_config_key will be applied every time you call this
+  --   -- builtin picker
+  --   find_files = { 
+  --           theme = "", 
+  --   }, 
+  -- },
+
   extensions = {
     -- Your extension configuration goes here:
     -- extension_name = {
     --   extension_config_key = value,
     -- }
     -- please take a look at the readme of the extension you want to configure
-    fzf = { 
+    fzf = {
             fuzzy = true,                       -- false will only do exact matching
             override_generic_sorter = true,     -- override generic sorter 
             case_mode = "smart_case",           -- or "ignore_case" or "respect_case" ( the default case mode is "smart_case") 
-    } 
+    }
 
   },
 }

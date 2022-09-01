@@ -24,4 +24,3 @@ require("user.lsp")         -- because lsp/ folder contains init.lua file this f
                             -- This folder contains lsp related configs. 
 
 
-
