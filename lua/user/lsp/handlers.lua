@@ -18,7 +18,6 @@ M.capabilities = cmp_nvim_lsp.update_capabilities(M.capabilities) -- adding some
 -- NOTE : This setup method is called in user.lsp.init.lua file
 M.setup = function()
   local signs = {
-
     { name = "DiagnosticSignError", text = "" },
     { name = "DiagnosticSignWarn", text = "" },
     { name = "DiagnosticSignHint", text = "" },
@@ -30,7 +29,7 @@ M.setup = function()
   end
 
   local config = {
-    virtual_text = false, -- disable virtual text ( true = annoying but personel preference )
+    virtual_text = true, -- disable virtual text ( true = annoying but personel preference )
     signs = {
       active = signs, -- show signs
     },

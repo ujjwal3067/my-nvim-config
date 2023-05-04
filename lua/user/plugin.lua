@@ -58,7 +58,7 @@ return packer.startup(function(use)
     use {'nvim-lualine/lualine.nvim' , commit = "3cf45404d4ab5e3b5da283877f57b676cb78d41d", lock=true} -- better status line 
     use {'nvim-lua/plenary.nvim', commit="a3dafaa937921a4eb2ae65820c3479ab561e9ba3", lock=true} -- common functions that other plugins uses.
     use {'nvim-telescope/telescope.nvim', commit = "b923665e64380e97294af09117e50266c20c71c7", lock=true} -- file finder, grepper etc. 
-    use { 'nvim-treesitter/nvim-treesitter', commit ="8a1ff3cf6a43cff98abdf572d2605407306e58ba",lock=true} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
+    use { 'nvim-treesitter/nvim-treesitter'} -- treesitter for some goddies in syntax + other feature (excellent parser generator tool)  
 
 
     -- better commenting
@@ -75,6 +75,7 @@ return packer.startup(function(use)
     use {'kyazdani42/nvim-tree.lua', commit="ce5d0a6b7ddfec622554943d2ebcc739b1d74567", lock=true} -- tree file explorer
     use {'lukas-reineke/indent-blankline.nvim', commit="c15bbe9f23d88b5c0b4ca45a446e01a0a3913707", lock=true} -- for indent line
     use {'ahmedkhalf/project.nvim', commit='090bb11ee7eb76ebb9d0be1c6060eac4f69a240f', lock=true} -- auto detect the root directory  
+    use {'ggandor/leap.nvim', commit='dda4ed60f90ae889f459887449a43c4de29609bd', lock=true} -- better keyboard jumps in vim  
 
     -- telescope plugin
     use {'nvim-telescope/telescope-fzf-native.nvim',commit ="6791f74e9f08a9412c43dcba805ecf2f8888bdde",  run = 'make', lock=true}
@@ -110,7 +111,8 @@ return packer.startup(function(use)
     use {'jacoborus/tender.vim', commit="7746453a045eaa97dc413a7209268345f33f3243", lock=true}
     use {'EdenEast/nightfox.nvim', commit="e2f961859cbfb2ba38147dc59fdd2314992c8b62", lock=true}
     use {'cocopon/iceberg.vim', commit ="61efc9c61dec54076c093af0cff304e30b0c3a07", lock=true}
-    use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac", lock=true}
+    -- use {'rebelot/kanagawa.nvim', commit="ec3b133414388b0bfea3f33ca0bff10538aef8ac", lock=true}
+    use {'rebelot/kanagawa.nvim'}
     use {'projekt0n/github-nvim-theme', commit="b3f15193d1733cc4e9c9fe65fbfec329af4bdc2a", lock=true}
     use {'lifepillar/vim-solarized8', commit= "9f9b7951975012ce51766356c7c28ba56294f9e8", lock=true}
     use {'RRethy/nvim-base16', commit="853faf64ea80e65950838d2b35466b1eb6036cef", lock=true}
